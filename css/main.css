@@ -99,4 +99,19 @@ main > p:first-child::first-letter {
 
 img {
   width: 300px;
+  float: right;
+}
+
+figure {
+  float: right;
+  margin-right: -15%;
+  width: 300px;
+  border-top: 3px #333 solid;
+  border-bottom: 3px #333 solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+figcaption {
+  font-style: italic;
 }
